@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andale Mono', monospace;
+}
+
+body {
+    background-color: white;
+    color: rgba(0, 75, 133, 1);
+}
+
+header {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo1{
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.login-btn {
+    background-color: white;
+    color: rgba(0, 75, 133, 1);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hero {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: white;
+    color: rgba(0, 75, 133, 1);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgba(0, 75, 133, 1);
+}
+
+.feature p {
+    font-size: 18px;
+    color: rgba(0, 75, 133, 0.8);
+}
+
+footer {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
