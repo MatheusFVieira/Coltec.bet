@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andale Mono', monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    color: rgba(0, 75, 133, 1);
+}
+
+/* Header e navegação */
+header {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo1 {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Seção de Suporte */
+.support-section {
+    text-align: center;
+    padding: 50px 20px;
+    flex-grow: 1;
+    background-color: rgba(0, 75, 133, 0.1);
+}
+
+.support-section h2 {
+    font-size: 36px;
+    color: rgba(0, 75, 133, 1);
+    margin-bottom: 20px;
+}
+
+.support-section p {
+    font-size: 18px;
+    color: rgba(0, 75, 133, 0.9);
+    margin-bottom: 20px;
+}
+
+.email-section {
+    margin: 20px 0;
+}
+
+.email-link {
+    font-size: 20px;
+    color: rgba(0, 75, 133, 1);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgba(0, 75, 133, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.email-link:hover {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 75, 133, 1);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+}
